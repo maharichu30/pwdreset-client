@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://pwdreset-server.onrender.com/api"
+  baseURL: "http://localhost:3001/api"
 });
 
 export default API;
